@@ -1,6 +1,12 @@
 # passport-paypal-token
 
-![Build Status](https://img.shields.io/travis/ghaiklor/passport-paypal-token.svg) ![Coverage](https://img.shields.io/coveralls/ghaiklor/passport-paypal-token.svg) ![Downloads](https://img.shields.io/npm/dm/passport-paypal-token.svg) ![npm version](https://img.shields.io/npm/v/passport-paypal-token.svg) ![dependencies](https://img.shields.io/david/ghaiklor/passport-paypal-token.svg) ![dev dependencies](https://img.shields.io/david/dev/ghaiklor/passport-paypal-token.svg) ![License](https://img.shields.io/npm/l/passport-paypal-token.svg)
+![Build Status](https://img.shields.io/travis/ghaiklor/passport-paypal-token.svg)
+![Coverage](https://img.shields.io/coveralls/ghaiklor/passport-paypal-token.svg)
+![Downloads](https://img.shields.io/npm/dm/passport-paypal-token.svg)
+![npm version](https://img.shields.io/npm/v/passport-paypal-token.svg)
+![dependencies](https://img.shields.io/david/ghaiklor/passport-paypal-token.svg)
+![dev dependencies](https://img.shields.io/david/dev/ghaiklor/passport-paypal-token.svg)
+![License](https://img.shields.io/npm/l/passport-paypal-token.svg)
 
 [Passport](http://passportjs.org/) strategy for authenticating with Paypal access tokens using the OAuth 2.0 API.
 
@@ -57,7 +63,11 @@ module.exports = {
 };
 ```
 
-The POST request to this route should include a JSON object with the keys `access_token` and optionally, `refresh_token` set to the credentials you receive from Paypal.
+The request to this route should include a GET or POST data with the keys `access_token` and optionally, `refresh_token` set to the credentials you receive from Paypal.
+
+```
+GET /auth/paypal?access_token=<TOKEN>
+```
 
 ## Issues
 
