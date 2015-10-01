@@ -1,4 +1,4 @@
-{
+export default JSON.stringify({
   "status": "SUCCESS",
   "identity": {
     "status": "ACTIVE",
@@ -8,4 +8,4 @@
     "lastName": "Obrezkov",
     "emails": ["ghaiklor@gmail.com"]
   }
-}
+})
