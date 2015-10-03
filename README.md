@@ -3,6 +3,7 @@
 ![Build Status](https://img.shields.io/travis/ghaiklor/passport-paypal-token.svg)
 ![Coverage](https://img.shields.io/coveralls/ghaiklor/passport-paypal-token.svg)
 ![Downloads](https://img.shields.io/npm/dm/passport-paypal-token.svg)
+![Downloads](https://img.shields.io/npm/dt/passport-paypal-token.svg)
 ![npm version](https://img.shields.io/npm/v/passport-paypal-token.svg)
 ![dependencies](https://img.shields.io/david/ghaiklor/passport-paypal-token.svg)
 ![dev dependencies](https://img.shields.io/david/dev/ghaiklor/passport-paypal-token.svg)
@@ -27,6 +28,8 @@ The Paypal authentication strategy authenticates users using a Paypal account an
 The strategy requires a `verify` callback, which accepts these credentials and calls `next` providing a user, as well as `options` specifying a app ID and app secret.
 
 ```javascript
+var PaypalTokenStrategy = require('passport-paypal-token');
+
 passport.use(new PaypalTokenStrategy({
     clientID: PAYPAL_CLIENT_ID,
     clientSecret: PAYPAL_CLIENT_SECRET,
