@@ -2,12 +2,16 @@
 
 ![Build Status](https://img.shields.io/travis/ghaiklor/passport-paypal-token.svg)
 ![Coverage](https://img.shields.io/coveralls/ghaiklor/passport-paypal-token.svg)
+
 ![Downloads](https://img.shields.io/npm/dm/passport-paypal-token.svg)
 ![Downloads](https://img.shields.io/npm/dt/passport-paypal-token.svg)
 ![npm version](https://img.shields.io/npm/v/passport-paypal-token.svg)
+![License](https://img.shields.io/npm/l/passport-paypal-token.svg)
+
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![dependencies](https://img.shields.io/david/ghaiklor/passport-paypal-token.svg)
 ![dev dependencies](https://img.shields.io/david/dev/ghaiklor/passport-paypal-token.svg)
-![License](https://img.shields.io/npm/l/passport-paypal-token.svg)
 
 [Passport](http://passportjs.org/) strategy for authenticating with Paypal access tokens using the OAuth 2.0 API.
 
